@@ -1,0 +1,14 @@
+# OpenEnv TaskRouter ✅
+
+## Phase 1: Docker + HF Spaces
+```bash
+docker build -t openenv-taskrouter .
+docker run -p 7860:7860 openenv-taskrouter
+```
+
+## Phase 2: Baseline Agent
+```bash
+python inference.py  # Runs standard agent, prints avg reward
+```
+
+## API Endpoints (Nemotron-3)
